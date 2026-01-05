@@ -388,7 +388,9 @@ body {
         flex: 0 0 36px;
     }
     .brand-main {
-        font-size: 0.95rem;
+        /*font-size: 0.95rem;*/
+        font-size: 1.25rem;
+          letter-spacing: 0.2px;
     }
     .brand-sub {
         font-size: 0.68rem;
