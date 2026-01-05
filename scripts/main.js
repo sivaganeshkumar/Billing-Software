@@ -80,9 +80,9 @@ function initializeDefaultMenu() {
         {
             id: '1',
             tamilName: 'Idli',
-            englishName: 'Idli',
-            price: 25,
-            imageUrl: 'https://images.unsplash.com/photo-1611095973763-414019e72400?w=400&h=300&fit=crop'
+            englishName: 'Idli (1 Pcs)',
+            price: 10,
+            imageUrl: 'https://www.bing.com/th/id/OIP.civ6_2NuDZWek0HcFthhkwHaFY?w=237&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'
         },
         {
             id: '2',
@@ -271,6 +271,7 @@ function animateLogo() {
             console.error('Logo shortcut error:', err);
         }
     });
+
 })();
 
 // Make functions globally available
