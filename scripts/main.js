@@ -118,7 +118,7 @@ function initializeDefaultMenu() {
             englishName: 'Parotta (1 Pcs)',
             price: 20,
             imageUrl: 'https://www.bing.com/th/id/OIP.y9tkXXTr1KvH2D6sVUfE7wHaIZ?w=160&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'
-        }
+        },
         {
             id: '7',
             tamilName: 'Kothu Parotta',
@@ -283,6 +283,7 @@ function animateLogo() {
 
 // Make functions globally available
 window.addToCart = addToCart;
+
 
 
 
