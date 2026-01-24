@@ -49,7 +49,7 @@ function initializeDefaultMenu() {
             tamilName: 'Santhagai',
             englishName: 'Santhagai',
             price: 40,
-            imageUrl: 'https://th.bing.com/th/id/OIP.O_TS7AeQoFz574_-83d_XAHaG3?w=168&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3'
+            imageUrl: 'https://th.bing.com/th/id/OIP.v_2-G53SRzViomedhrTcRgHaFj?w=232&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3'
         },
         {
             id: '5',
@@ -214,6 +214,7 @@ function renderMenuItems() {
 // Make functions globally available
 window.editItem = editItem;
 window.deleteItem = deleteItem;
+
 
 
 
