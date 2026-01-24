@@ -67,7 +67,7 @@ function updateCartBadge() {
 function loadMenuItems() {
     const stored = localStorage.getItem('menuItems');
     if (stored) {
-        menuItems = JSON.parse(stored);
+        initializeDefaultMenu();
     } else {
         // Initialize with default items
         initializeDefaultMenu();
@@ -86,38 +86,38 @@ function initializeDefaultMenu() {
         },
         {
             id: '2',
-            tamilName: 'Poori',
-            englishName: 'Poori',
-            price: 30,
-            imageUrl: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop'
+            tamilName: 'Poori (2 Pcs)',
+            englishName: 'Poori (2 Pcs)',
+            price: 50,
+            imageUrl: 'https://www.bing.com/th/id/OIP.P5QyH7G2z1uszq7nSiqjRwHaE8?w=278&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'
         },
         {
             id: '3',
-            tamilName: 'Dosa',
-            englishName: 'Dosa',
-            price: 35,
-            imageUrl: 'https://images.unsplash.com/photo-1615826932727-ed9f4ac5f54b?w=400&h=300&fit=crop'
+            tamilName: 'Dosa (1 Pcs)',
+            englishName: 'Dosa (1 Pcs)',
+            price: 20,
+            imageUrl: 'https://www.bing.com/th/id/OIP.AecdFT6JJHcKfKMDrj3_ngHaEf?w=274&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'
         },
         {
             id: '4',
             tamilName: 'Santhagai',
             englishName: 'Santhagai',
             price: 40,
-            imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop'
+            imageUrl: 'https://th.bing.com/th/id/OIP.O_TS7AeQoFz574_-83d_XAHaG3?w=168&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3'
         },
         {
             id: '5',
             tamilName: 'Meals',
             englishName: 'Meals',
             price: 80,
-            imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop'
+            imageUrl: 'https://th.bing.com/th/id/OIP.O_TS7AeQoFz574_-83d_XAHaG3?w=168&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3'
         },
         {
             id: '6',
-            tamilName: 'Parotta',
-            englishName: 'Parotta',
+            tamilName: 'Parotta (1 Pcs)',
+            englishName: 'Parotta (1 Pcs)',
             price: 20,
-            imageUrl: 'https://images.unsplash.com/photo-1563379091339-03246963d96a?w=400&h=300&fit=crop'
+            imageUrl: 'https://www.bing.com/th/id/OIP.y9tkXXTr1KvH2D6sVUfE7wHaIZ?w=160&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'
         }
     ];
     saveMenuItems();
@@ -276,3 +276,4 @@ function animateLogo() {
 
 // Make functions globally available
 window.addToCart = addToCart;
+
