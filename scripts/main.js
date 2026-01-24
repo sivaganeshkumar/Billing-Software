@@ -119,6 +119,13 @@ function initializeDefaultMenu() {
             price: 20,
             imageUrl: 'https://www.bing.com/th/id/OIP.y9tkXXTr1KvH2D6sVUfE7wHaIZ?w=160&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2'
         }
+        {
+            id: '7',
+            tamilName: 'Kothu Parotta',
+            englishName: 'Kothu Parotta',
+            price: 20,
+            imageUrl: 'hhttps://th.bing.com/th/id/OIP.lZbozuBsujPegFRdiAod5gHaFO?w=272&h=192&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3'
+        }
     ];
     saveMenuItems();
 }
@@ -276,5 +283,6 @@ function animateLogo() {
 
 // Make functions globally available
 window.addToCart = addToCart;
+
 
 
